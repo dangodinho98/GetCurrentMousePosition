@@ -1,0 +1,110 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "TextCopy/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/TextCopy.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/TextCopy.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TextCopy/3.0.0": {
+      "sha512": "+vXX7g+z32PTAfejngj0KT8d5MRlEvPQgPkFh60W6P0aoMiLHuyYl1MYr2OF/80l1pFQI0rjC/tD1bA4thTIyA==",
+      "type": "package",
+      "path": "textcopy/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net461/TextCopy.dll",
+        "lib/net461/TextCopy.xml",
+        "lib/netstandard2.0/TextCopy.dll",
+        "lib/netstandard2.0/TextCopy.xml",
+        "lib/netstandard2.1/TextCopy.dll",
+        "lib/netstandard2.1/TextCopy.xml",
+        "lib/uap10.0/TextCopy.dll",
+        "lib/uap10.0/TextCopy.pri",
+        "lib/uap10.0/TextCopy.xml",
+        "textcopy.3.0.0.nupkg.sha512",
+        "textcopy.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "TextCopy >= 3.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Administrador\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\GetCurrentMousePosition\\GetCurrentMousePosition\\GetCurrentMousePosition\\GetCurrentMousePosition.csproj",
+      "projectName": "GetCurrentMousePosition",
+      "projectPath": "D:\\GetCurrentMousePosition\\GetCurrentMousePosition\\GetCurrentMousePosition\\GetCurrentMousePosition.csproj",
+      "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
+      "outputPath": "D:\\GetCurrentMousePosition\\GetCurrentMousePosition\\GetCurrentMousePosition\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pottencial.pkgs.visualstudio.com/_packaging/Pottencial/nuget/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "TextCopy": {
+            "target": "Package",
+            "version": "[3.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

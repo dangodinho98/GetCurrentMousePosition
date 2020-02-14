@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "GetCurrentMousePosition/1.0.0": {
+        "dependencies": {
+          "TextCopy": "3.0.0"
+        },
+        "runtime": {
+          "GetCurrentMousePosition.dll": {}
+        }
+      },
+      "TextCopy/3.0.0": {
+        "runtime": {
+          "lib/netstandard2.1/TextCopy.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GetCurrentMousePosition/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TextCopy/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+vXX7g+z32PTAfejngj0KT8d5MRlEvPQgPkFh60W6P0aoMiLHuyYl1MYr2OF/80l1pFQI0rjC/tD1bA4thTIyA==",
+      "path": "textcopy/3.0.0",
+      "hashPath": "textcopy.3.0.0.nupkg.sha512"
+    }
+  }
+}
